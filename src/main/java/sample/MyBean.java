@@ -4,9 +4,12 @@ public class MyBean {
     private String name;
     private int count;
 
-    public MyBean() {
-        System.out.println("MyBean default 생성자 실행!!");
-    }
+    // constructor-args를 사용하는 경우에 사용, property를 쓸 때에는 없어야 한다
+//    public MyBean(String name, int count) {
+//        System.out.println("MyBean default 생성자 실행!!");
+//        this.name = name;
+//        this.count = count;
+//    }
 
     public String getName() {
         return name;
